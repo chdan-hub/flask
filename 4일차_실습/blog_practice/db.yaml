@@ -1,0 +1,5 @@
+mysql_host: 'localhost'
+mysql_user: 'root'
+mysql_password: 'spoonvkejr12!'
+mysql_db: 'oz'
+mysql_unix_socket: "/opt/homebrew/var/mysql/mysql.sock"
