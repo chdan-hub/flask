@@ -32,7 +32,7 @@ class Users(MethodView):
         user_data = request.json
 
         user.name = user_data['name']
-        user.email = user_data['email']
+        user.email = user_data['email'] 
 
         db.session.commit()
         return {"message": "User updated"}
